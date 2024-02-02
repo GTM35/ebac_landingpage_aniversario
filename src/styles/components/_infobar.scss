@@ -1,0 +1,41 @@
+.info-bar {
+  background-color: #fff;
+  width: 100%;
+  height: fit-content;
+  border-radius: 8px;
+
+  &__container {
+    padding: 24px 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    list-style: none;
+
+    &__title {
+      font-size: 24px;
+    }
+    &__description {
+      margin-top: 8px;
+    }
+  }
+
+  /*  */
+  @media screen and (max-width: 640px) {
+    &__container {
+      flex-direction: column;
+      padding: 16px;
+      gap: 16px;
+    }
+
+    &__item {
+      &__title {
+        font-size: 16px;
+      }
+      &__description {
+        font-size: 12px;
+      }
+    }
+  }
+}
