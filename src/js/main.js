@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function timeHero() {
   let labelHero = document.querySelector(".header__event span");
 
-  const dataAniversario = new Date("Feb 06, 2024 17:15:00");
+  const dataAniversario = new Date("Dec 01, 2024 00:00:00");
   const dataHoje = new Date();
 
   const timeStampDiff = dataAniversario.getTime() - dataHoje.getTime();
