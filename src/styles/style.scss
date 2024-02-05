@@ -1,5 +1,7 @@
 @use "./components/infobar";
+@use "./components/buttons";
 @use "./header";
+@use "./event";
 
 * {
   padding: 0;
@@ -13,5 +15,4 @@
   margin: 0 auto;
   max-width: 1024px;
   padding: 40px 16px;
-  // background-color: #bbb;
 }

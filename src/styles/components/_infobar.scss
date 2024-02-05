@@ -21,8 +21,7 @@
     }
   }
 
-  /*  */
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     &__container {
       flex-direction: column;
       padding: 16px;
